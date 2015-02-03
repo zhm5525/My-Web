@@ -1,0 +1,34 @@
+/*.pull-left li{
+    display:inline;
+}
+*/
+
+.jumbotron{
+    background-image: url("http://www.freecomputerdesktopwallpaper.com/new_wallpaper/Fantasy_Future_City_freecomputerdesktopwallpaper_1920.jpg");
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1{
+    color:#fff;
+}
+.jumbotron p{
+    color:#fff;
+    
+}
+/*
+.relax{
+    background-image: url("http://www.noobtraveler.com/wp-content/uploads/2014/03/Hawaii-beach-water1.jpg");
+    background-size: cover;
+
+}
+*/
+.thumbnail img{
+    width: 100%;
+    height:250px;
+}
+
+#google{
+    float:right;
+}
