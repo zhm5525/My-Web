@@ -2,6 +2,11 @@
     display:inline;
 }
 */
+body{
+ left:0;
+ margin:0;
+ position: relative;
+}
 
 .jumbotron{
     background-image: url("http://www.freecomputerdesktopwallpaper.com/new_wallpaper/Fantasy_Future_City_freecomputerdesktopwallpaper_1920.jpg");
@@ -32,3 +37,24 @@
 #google{
     float:right;
 }
+
+.menu{
+    background-color: #202024;
+    margin-left:-285px;
+    width:285px;
+    height:100%;
+    position: absolute;
+}
+
+.menu li{
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    line-height: 50px;
+}
+.menu a{
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
