@@ -1,0 +1,33 @@
+body{
+    background-image: url("http://3.bp.blogspot.com/-4nX-x9qLylE/UnIe_H-5TQI/AAAAAAAABt4/Mhr7ChPoZrk/s1600/peaceful+hd+wallpapers-15.jpg");
+    background-size:cover;
+
+}
+
+.article{
+    background: rgba(255,255,255,0.5);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.details{
+    display:none;
+    padding-bottom: 10px;
+}
+
+.current{
+    background: rgba(255,200,35,0.5);
+}
+
+.topic{
+    padding-top: 10px;
+
+}
+
+.article .title{
+    margin-left: 10px;
+}
+
+.article .content{
+    font-weight: bold;
+}
