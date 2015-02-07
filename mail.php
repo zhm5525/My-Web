@@ -5,9 +5,9 @@
     </head>
     <body>
     <?php
-       $Name = $_REQUEST['name'];
-       $Mail = $_REQUEST['mail'];
-       $Message=$_REQUEST['message'];
+       $Name = $_POST['name'];
+       $Mail = $_POST['mail'];
+       $Message=$_POST['message'];
        $to="zhmpostbox@live.cn";
        $subject = "Comment from myWeb";
         mail($to,$subject,$Message,"From:".$Mail);
