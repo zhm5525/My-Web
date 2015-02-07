@@ -4,8 +4,19 @@
         <titile></titile>
     </head>
     <body>
-    <?php
-             $from_name ="Mahendra";
+         <?php
+        /*
+   
+       $Name = $_REQUEST['name'];
+       $Mail = $_REQUEST['mail'];
+       $Message=$_REQUEST['message'];
+       $to="zhmpostbox@live.cn";
+       $subject = "Comment from myWeb";
+        mail($to,$subject,$Message,"From:".$Mail);
+        echo "recived email";
+       
+      */  
+         $from_name ="Mahendra";
   $from_mail = "xxxx@gmail.com";
   $to = "zhmpostbox@live.cn";
   $subject = "Mahendra's Test Mail";
@@ -19,14 +30,12 @@
 
   if($sendmail)
   {
-      echo "Send 123";
+      echo "Send";
   }
   else
   {
-      echo "Not Send 123";  
+      echo "Not Send";  
    }
-        ?>
-        
-        
+ ?>
     </body>
 </html>
